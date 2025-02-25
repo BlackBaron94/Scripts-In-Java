@@ -66,7 +66,7 @@ public class GuessTheNumberGame {
 
             // Returns Float from 0,0(inclusive) to 1,0(exclusive)
             // e.g. range 15 makes (15+1)*float return up to 15.9
-            // which when typecasted into int becomes 15
+            // which when type-casted into int becomes 15
             int randomNum = (int) (Math.random() * (range + 1));
             System.out.println("A random number has been chosen between the range 0 and " + range + "!");
 
@@ -118,7 +118,7 @@ public class GuessTheNumberGame {
                         if (range > 19) {
                             System.out.println("That is EXTREMELY LUCKY!!!!!");
                         }
-                        // This continue skips normal congratulatory print for both range > and < 19 cases
+                        // This 'continue' skips normal congratulatory print for both range > and < 19 cases
                         continue;
                     }
                     System.out.println("Congratulations! You found the number in "

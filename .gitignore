@@ -1,3 +1,10 @@
 **/.idea/
+**/*.class
 **/out/
 **/*.iml
+**/.gradle/
+**/.mvn/
+**/*.ipr
+**/*.iws
+
+

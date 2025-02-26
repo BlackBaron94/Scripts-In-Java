@@ -97,6 +97,7 @@ string σε int/float, εντοπίζει την επιθυμητή πράξη, 
 - [X] Palindrome Checker.
 - [X] Guess The Number Game.
 - [X] Two-Part Calculator.
+- [ ] Διαχείριση περιπτώσεων που μία παράσταση λαμβάνεται ως 2 στο Two-Part Calculator (πχ -31 + 5 = 5-31)
 - [ ] To-do list (CRUD functions).
 - [ ] File I/O (read data, search words/give stats, write stats on different file).
 - [ ] Simple Tic Tac Toe.

@@ -36,7 +36,8 @@ public class simple_calculator {
 
             String[] parts_of_calculation = input.split("[-/*+^]");
 
-            if (parts_of_calculation.length > 2) {
+            // Checks edge cases like +55, 55+
+            if (parts_of_calculation.length != 2 | parts_of_calculation[0].compareTo("") == 0) {
                 System.out.println("Please enter a two part calculation.\nApp does not support multi-part calculation...yet.");
                 continue;
             }
@@ -73,17 +74,29 @@ public class simple_calculator {
                     result = ints_to_calculate.get(0) * ints_to_calculate.get(1);
                 }
             } else if (input.contains("/")) {
+
                 if (float_found) {
+                    if (floats_to_calculate.get(1) == 0.0f) {
+                        System.out.println("Division with 0 is not permitted.");
+                        continue;
+                    }
                     result = floats_to_calculate.get(0) / floats_to_calculate.get(1);
                 } else {
+                    if (ints_to_calculate.get(1) == 0) {
+                        System.out.println("Division with 0 is not permitted.");
+                        continue;
+                    }
                     result = (float) ints_to_calculate.get(0) / (float) ints_to_calculate.get(1);
                 }
-            } else {
+            } else if (input.contains("^")) {
                 if (float_found) {
                     result = (float) pow(floats_to_calculate.get(0), floats_to_calculate.get(1));
                 } else {
                     result = (float)  pow(ints_to_calculate.get(0), ints_to_calculate.get(0));
                 }
+            } else {
+                System.out.println(input);
+                continue;
             }
             System.out.println("Result is: " + result);
         }

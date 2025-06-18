@@ -16,6 +16,7 @@
 - [Οδηγίες Εγκατάστασης](#οδηγίες-εγκατάστασης)
 - [Μελλοντικές Προσθήκες](#μελλοντικές-προσθήκες)
 - [Επικοινωνία](#επικοινωνία)
+- [License](#license)
 
 
 ## String to array converter
@@ -111,5 +112,12 @@ string σε int/float, εντοπίζει την επιθυμητή πράξη, 
 Γιώργος Τσολακίδης - [Linked In: Giorgos Tsolakidis](https://www.linkedin.com/in/black-baron/) - black_baron94@hotmail.com 
 
 Project Link: [Latin Numerals Translator and Quiz](https://github.com/BlackBaron94/Latin-Numerals-Translator-and-Quiz)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

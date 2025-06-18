@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <div align="center">
-  <h1 align="center">Scripts in Java</h1>
+  <h1 align="center">Scripts In Java</h1>
 
   <p align="center">
     Ένα repository που περιέχει διάφορα scripts που ανέπτυξα με σκοπό την εξοικείωσή μου με Java, μετά την ολοκλήρωση του W3Schools tutorial!
@@ -9,10 +9,10 @@
 </div>
 
 ## Περιεχόμενα
-- [String to array converter](#String-to-array-converter)
-- [Palindrome Checker](#Palindrome-Checker)
-- [Guess The Number Game](#Guess-The-Number-Game)
-- [Simple Two-Part Calculator](#Simple-Two-Part-Calculator)
+- [String to array converter](#string-to-array-converter)
+- [Palindrome Checker](#palindrome-checker)
+- [Guess The Number Game](#guess-the-number-game)
+- [Simple Two-Part Calculator](#simple-two-part-calculator)
 - [Οδηγίες Εγκατάστασης](#οδηγίες-εγκατάστασης)
 - [Μελλοντικές Προσθήκες](#μελλοντικές-προσθήκες)
 - [Επικοινωνία](#επικοινωνία)
@@ -111,7 +111,7 @@ string σε int/float, εντοπίζει την επιθυμητή πράξη, 
 
 Γιώργος Τσολακίδης - [Linked In: Giorgos Tsolakidis](https://www.linkedin.com/in/black-baron/) - black_baron94@hotmail.com 
 
-Project Link: [Latin Numerals Translator and Quiz](https://github.com/BlackBaron94/Latin-Numerals-Translator-and-Quiz)
+Project Link: [Scripts In Java](https://github.com/BlackBaron94/Scripts-In-Java/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
